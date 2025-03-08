@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import argparse
 import random
 from benchmark import get_problem
-from LassoBO.LassoBO import run_LassoBO
+from LassoBO import run_LassoBO
 from utils import save_args
 import warnings
 warnings.filterwarnings("ignore")
